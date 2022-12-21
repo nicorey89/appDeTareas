@@ -1,0 +1,35 @@
+let autos = [
+    {
+        marca: 'Ford',
+        modelo: 'Fiesta',
+        precio: 150000,
+        km: 200,
+        color: 'Azul',
+        cuotas: 12,
+        anio: 2019,
+        patente: 'APL123',
+        vendido: false
+    },
+    {
+        marca: 'Toyota',
+        modelo: 'Corolla',
+        precio: 100000,
+        km: 0,
+        color: 'Blanco',
+        cuotas: 14,
+        anio: 2019,
+        patente: 'JJK116',
+        vendido: false
+    }
+];
+
+
+let concesionaria = {
+   autos: autos,
+   buscarAuto: function (patente){
+      let buscarPorPatente = this.autos.patente;
+      
+   }
+}
+
+console.log(concesionaria.buscarAuto('APL123'));
